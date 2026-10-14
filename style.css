@@ -18,7 +18,7 @@ nav a:not(.btn)::after{content:"";position:absolute;left:0;bottom:-3px;height:1p
 nav a:not(.btn):hover::after{width:100%}
 .burger{display:none;background:none;border:0;width:36px;height:36px;cursor:pointer}.burger i{display:block;height:2px;background:#fff;margin:7px 4px;transition:.3s}
 .hero{position:relative;min-height:100svh;display:grid;align-items:center;padding:7rem 0 4rem;color:#fff;overflow:hidden}
-.hero-bg{position:absolute;inset:-30px;background:linear-gradient(rgba(20,24,22,.55),rgba(20,24,22,.8)),url(assets/villa.jpg) center/cover;filter:blur(18px);animation:drift 24s ease-in-out infinite alternate}
+.hero-bg{position:absolute;inset:-30px;background:linear-gradient(rgba(20,24,22,.55),rgba(20,24,22,.8)),var(--villa,url(assets/villa.jpg)) center/cover;filter:blur(18px);animation:drift 24s ease-in-out infinite alternate}
 @keyframes drift{to{transform:scale(1.12) translateX(-2%)}}
 .hero-grid{position:relative;display:grid;gap:3rem;grid-template-columns:1fr 1.1fr;align-items:center}
 .tag{display:inline-block;padding:.35rem 1rem;border-radius:99px;margin-bottom:1.2rem;font-size:.9rem}

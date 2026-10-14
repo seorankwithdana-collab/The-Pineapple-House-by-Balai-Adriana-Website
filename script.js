@@ -1,3 +1,4 @@
+(()=>{const V=window.VILLA;if(!V)return;document.documentElement.style.setProperty('--villa','url("'+V+'")');document.querySelectorAll('img').forEach(i=>{if(/villa\.jpg/.test(i.getAttribute('src')))i.src=V})})();
 (()=>{
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const nav=$('#nav'),menu=$('#menu'),burger=$('#burger');
